@@ -30,7 +30,7 @@ CLI转换相关的基本功能包括：
     
     python3 main.py -t -p assets/text/a.txt 
 
-
+    也可以将命令补全：
     python3 main.py --text_audit --path assets/text/a.txt 
     
 
@@ -38,7 +38,7 @@ CLI转换相关的基本功能包括：
     
     python3 main.py -t 
 
-
+    也可以将命令补全：
     python3 main.py --text_audit
 
 
@@ -64,7 +64,7 @@ PyYAML==6.0
     
     python3 main.py -t -p assets/text/a.txt 
 
-
+    也可以将命令补全：
     python3 main.py --text_audit --path assets/text/a.txt 
     
 
@@ -72,7 +72,7 @@ PyYAML==6.0
     
     python3 main.py -t 
 
-
+    也可以将命令补全：
     python3 main.py --text_audit
 
 ## Development - 开发（关于怎样开发的文档信息。（API 等。））
