@@ -1,0 +1,148 @@
+{
+    "age,习大大": {
+        "conclusion": "不合规",
+        "log_id": 16477752265472533,
+        "data": [
+            {
+                "msg": "存在政治敏感不合规",
+                "conclusion": "不合规",
+                "hits": [
+                    {
+                        "wordHitPositions": [
+                            {
+                                "positions": [
+                                    [
+                                        4,
+                                        6
+                                    ]
+                                ],
+                                "label": "300102",
+                                "keyword": "习大大"
+                            }
+                        ],
+                        "probability": 1.0,
+                        "datasetName": "百度默认文本反作弊库",
+                        "words": [
+                            "习大大"
+                        ],
+                        "modelHitPositions": [
+                            [
+                                0,
+                                6,
+                                0.9923
+                            ]
+                        ]
+                    }
+                ],
+                "subType": 3,
+                "conclusionType": 2,
+                "type": 12
+            }
+        ],
+        "isHitMd5": false,
+        "conclusionType": 2
+    },
+    "pig": {
+        "conclusion": "合规",
+        "log_id": 16477752269566277,
+        "isHitMd5": false,
+        "conclusionType": 1
+    },
+    "dog": {
+        "conclusion": "疑似",
+        "log_id": 16477752271330647,
+        "data": [
+            {
+                "msg": "疑似存在低俗辱骂不合规",
+                "conclusion": "疑似",
+                "hits": [
+                    {
+                        "wordHitPositions": [],
+                        "probability": 0.6488867,
+                        "datasetName": "百度默认文本反作弊库",
+                        "words": [],
+                        "modelHitPositions": [
+                            [
+                                0,
+                                2,
+                                0.6489
+                            ]
+                        ]
+                    }
+                ],
+                "subType": 5,
+                "conclusionType": 3,
+                "type": 12
+            }
+        ],
+        "isHitMd5": false,
+        "conclusionType": 3
+    },
+    "fuck": {
+        "conclusion": "不合规",
+        "log_id": 16477752273153039,
+        "data": [
+            {
+                "msg": "存在低俗辱骂不合规",
+                "conclusion": "不合规",
+                "hits": [
+                    {
+                        "wordHitPositions": [
+                            {
+                                "positions": [
+                                    [
+                                        0,
+                                        3
+                                    ]
+                                ],
+                                "label": "500100",
+                                "keyword": "fuck"
+                            }
+                        ],
+                        "probability": 1.0,
+                        "datasetName": "百度默认文本反作弊库",
+                        "words": [
+                            "fuck"
+                        ],
+                        "modelHitPositions": [
+                            [
+                                0,
+                                3,
+                                0.0059
+                            ]
+                        ]
+                    }
+                ],
+                "subType": 5,
+                "conclusionType": 2,
+                "type": 12
+            }
+        ],
+        "isHitMd5": false,
+        "conclusionType": 2
+    },
+    "圣爱大厦": {
+        "conclusion": "合规",
+        "log_id": 16477752275452536,
+        "isHitMd5": false,
+        "conclusionType": 1
+    },
+    "深爱的啊的a速度as的": {
+        "conclusion": "合规",
+        "log_id": 16477752277382065,
+        "isHitMd5": false,
+        "conclusionType": 1
+    },
+    "a洒大地啊": {
+        "conclusion": "合规",
+        "log_id": 16477752279639958,
+        "isHitMd5": false,
+        "conclusionType": 1
+    },
+    "撒打算": {
+        "conclusion": "合规",
+        "log_id": 16477752281463674,
+        "isHitMd5": false,
+        "conclusionType": 1
+    }
+}

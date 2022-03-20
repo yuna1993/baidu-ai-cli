@@ -1,0 +1,57 @@
+{
+    "习大大": {
+        "conclusion": "不合规",
+        "log_id": 16477752258536381,
+        "data": [
+            {
+                "msg": "存在政治敏感不合规",
+                "conclusion": "不合规",
+                "hits": [
+                    {
+                        "wordHitPositions": [
+                            {
+                                "positions": [
+                                    [
+                                        0,
+                                        2
+                                    ]
+                                ],
+                                "label": "300102",
+                                "keyword": "习大大"
+                            }
+                        ],
+                        "probability": 1.0,
+                        "datasetName": "百度默认文本反作弊库",
+                        "words": [
+                            "习大大"
+                        ],
+                        "modelHitPositions": [
+                            [
+                                0,
+                                2,
+                                0.9913
+                            ]
+                        ]
+                    }
+                ],
+                "subType": 3,
+                "conclusionType": 2,
+                "type": 12
+            }
+        ],
+        "isHitMd5": false,
+        "conclusionType": 2
+    },
+    "黑社会": {
+        "conclusion": "合规",
+        "log_id": 16477752260282532,
+        "isHitMd5": false,
+        "conclusionType": 1
+    },
+    "菜刀": {
+        "conclusion": "合规",
+        "log_id": 16477752261975269,
+        "isHitMd5": false,
+        "conclusionType": 1
+    }
+}
