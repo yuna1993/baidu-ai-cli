@@ -75,3 +75,9 @@ PyYAML==6.0
     也可以将命令补全：
     python3 main.py --text_audit
 
+
+## Support - 支持
+
+Please contact panyunan2015@163.com
+
+
