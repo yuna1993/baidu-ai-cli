@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 '''
     Commands examples: 
     python3 main.py -i (Scan all files in assets/image/*)
@@ -49,4 +48,3 @@ def output_result_tojson(path, type: Type):
         outfile.write(json.dumps(resultDict, ensure_ascii=False, indent=4))
 
     print('Done. Please check jason file!')
->>>>>>> Stashed changes
