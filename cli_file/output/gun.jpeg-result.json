@@ -1,0 +1,18 @@
+{
+    "0": {
+        "conclusion": "不合规",
+        "log_id": 16479694681098021,
+        "data": [
+            {
+                "msg": "存在枪械不合规",
+                "conclusion": "不合规",
+                "probability": 0.99349,
+                "subType": 11,
+                "conclusionType": 2,
+                "type": 2
+            }
+        ],
+        "isHitMd5": false,
+        "conclusionType": 2
+    }
+}

@@ -45,7 +45,7 @@ def output_result_tojson(path, type: Type):
         r = requests.post(url, data=para)
         resultDict[meta_data] = r.json()
         print('all %s, current' % len(list_of_lines), index+1)
-    with open('output/%s-result.json' % path[-5], "w", encoding='utf-8') as outfile:
+    with open('output/%s-result.json' % path[12:], "w", encoding='utf-8') as outfile:
         outfile.write(json.dumps(resultDict, ensure_ascii=False, indent=4))
 
     print('Done. Please check jason file!')

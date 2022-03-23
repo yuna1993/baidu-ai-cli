@@ -5,11 +5,13 @@
 ## Introduction - 介绍
 
 本项目将Baidu AI相关API接口转化为CLI，方便客户/售前/售后利用该项目批量操作，使接口更易用。使用者用一条Command，最多三个要素完成测试：提供AppKey/SecretKey以及需要检测的Source文档，就可以获得对应Json Results（按照检测资源文件名生成Json文件）
+对用户上传的文字/图片/短视频/语音审核是否涉政，涉恐，色情，暴力等等，返回‘合规’或‘不合规’Json结果。
 
 ### Summary - 概要
 
 已经完成开发：
-百度内容审核 - 文本审核
+【百度内容审核 - 文本审核】
+【百度内容审核 - 文本审核】
 CLI转换相关的基本功能包括：
 1. Get Baidu Token
 2. AK/SK注册
@@ -24,9 +26,9 @@ CLI转换相关的基本功能包括：
 ### Features - 特性
 
 目前支持的功能：
-内容审核-文本审核：
+【内容审核-文本审核CLI】：
 1. 读取config.yaml验证AK/SK是否存在或有效，若不存在需要注册在config.yaml.仅需注册一次就可以，无需每次重复输入AK/SK。
-2. 读取config.yaml认证，单个txt文件(一行一个)Scan并输出json结果，结果输出在output/文件夹下，命令如下：
+2. 读取config.yaml认证，单个txt文件(一行一个)Scan并输出json审核结果，结果输出在output/文件夹下，命令如下：
     
     python3 main.py -t -p assets/text/a.txt 
 
@@ -40,6 +42,23 @@ CLI转换相关的基本功能包括：
 
     也可以将命令补全：
     python3 main.py --text_audit
+
+【内容审核-图像审核CLI】：
+1. 读取config.yaml验证AK/SK是否存在或有效，若不存在需要注册在config.yaml.仅需注册一次就可以，无需每次重复输入AK/SK。
+2. 读取config.yaml认证，Scan指定图片并输出json结果，结果输出在output/文件夹下，命令如下：
+    
+    python3 main.py -i -p assets/image/baby.jpeg
+
+    也可以将命令补全：
+    python3 main.py --image_audit --path assets/image/baby.jpeg
+    
+
+3.  读取config.yaml认证，扫描全量assets/image/*并输出json结果，结果输出在output/文件夹下，文件名与image文件名一一对应。命令如下：
+    
+    python3 main.py -t 
+
+    也可以将命令补全：
+    python3 main.py --image_audit
 
 
 ## Requirements - 必要条件（环境，对所有项目，和所有子模块和库的描述。）
@@ -59,22 +78,6 @@ PyYAML==6.0
 ## Installation - 安装（如何安装。）
 
 ## Usage - 用法（用法。）
-1. 读取config.yaml验证AK/SK是否存在或有效，若不存在需要注册在config.yaml.仅需注册一次就可以，无需每次重复输入AK/SK。
-2. 读取config.yaml认证，单个txt文件Scan并输出json结果，结果输出在output/文件夹下，命令如下：
-    
-    python3 main.py -t -p assets/text/a.txt 
-
-    也可以将命令补全：
-    python3 main.py --text_audit --path assets/text/a.txt 
-    
-
-3.  读取config.yaml认证，扫描全量assets/text/*并输出json结果，结果输出在output/文件夹下，文件名与txt文件名一一对应。命令如下：
-    
-    python3 main.py -t 
-
-    也可以将命令补全：
-    python3 main.py --text_audit
-
 
 ## Support - 支持
 
